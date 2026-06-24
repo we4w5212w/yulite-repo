@@ -222,3 +222,19 @@ MD5sum: 2b189caf9eeb15b7e8a84a301d1b15c1
 SHA1: f4e42dadbfb298d079ca556120266c766ba412de
 SHA256: bdb170d5afab91494fdd34b2ce80adbac025848585310eb7cd3694626f523f09
 
+Package: com.local.yulitepro
+Name: YuLite高級版
+Depends: mobilesubstrate, preferenceloader
+Description: YuLite Pro - Advanced virtual camera and high-protection GPS spoofer with Gen 14 anti-detection.
+Maintainer: local <root@localhost>
+Author: local
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Installed-Size: 476
+Filename: debs/com.local.yulitepro_1.6.1_iphoneos-arm64e.deb
+Size: 84222
+MD5sum: 91c988740e26a86a8db7d6fd9fa23626
+SHA1: 1065c420b9216e7b3c40576f4c674605607877ce
+SHA256: 05052835354b1b3097d264daf58e649ce8ceff5a4e4b24bf9874b0505eb09979
+
