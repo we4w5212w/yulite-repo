@@ -1,0 +1,32 @@
+Package: com.local.yulite
+Name: YuLite
+Depends: mobilesubstrate, preferenceloader
+Description: Lite custom virtual camera iOS tweak with SCLAlertView & CMSampleBuffer creation.
+Maintainer: local <root@localhost>
+Author: local
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 408
+Filename: debs/com.local.yulite_1.0.0_iphoneos-arm64e.deb
+Size: 124518
+MD5sum: aa0c232709b655dd7a0e753957efae1f
+SHA1: 01caaa9e172e6febd57217cd4be3528062e0fee3
+SHA256: 0e8df57c96df9df3c0c7d6434e0630767b28c2de7c6a0992e013d36d21fbdfb2
+
+Package: com.local.yulitepro
+Name: YuLite高級版
+Depends: mobilesubstrate, preferenceloader
+Description: YuLite Pro - Advanced virtual camera and high-protection GPS spoofer with Gen 14 anti-detection.
+Maintainer: local <root@localhost>
+Author: local
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 444
+Filename: debs/com.local.yulitepro_1.3.1_iphoneos-arm64e.deb
+Size: 73034
+MD5sum: 529cad572750bd69362046fcf2aacf5c
+SHA1: 61f4842d30c3075fc6053c0c75a4ea7d2be4a134
+SHA256: 5d015b77d354b89856c237f4e6d3066b1c29edd4577b144a0ecfcafaeab41e40
+
