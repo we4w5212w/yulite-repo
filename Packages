@@ -89,8 +89,8 @@ Architecture: iphoneos-arm64e
 Version: 1.3.4
 Installed-Size: 460
 Filename: debs/com.local.yulitepro_1.3.4_iphoneos-arm64e.deb
-Size: 76018
-MD5sum: be7debdd9c7db8c17dfc4959a3b6cfbf
-SHA1: 1c4daa37ee49b941210bd469919aaa5160d5670b
-SHA256: 4b9eebf98ce0b7bd59081e06e93943faa0de53bdd2008fbd7d5006100ea407b1
+Size: 75896
+MD5sum: b638bde421d93b4d550a5d1bcf8605f2
+SHA1: 5c3be0f68e1dc77739f078f0baa2ff7cd542d3eb
+SHA256: 09e66b9585aefb9384ef6979e46f28ebc5d44b5fccf6c2f29617c7bb6754e7e2
 
