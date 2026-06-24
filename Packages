@@ -10,9 +10,9 @@ Version: 1.0.0
 Installed-Size: 408
 Filename: debs/com.local.yulite_1.0.0_iphoneos-arm64e.deb
 Size: 124518
-MD5sum: aa0c232709b655dd7a0e753957efae1f
-SHA1: 01caaa9e172e6febd57217cd4be3528062e0fee3
-SHA256: 0e8df57c96df9df3c0c7d6434e0630767b28c2de7c6a0992e013d36d21fbdfb2
+MD5sum: 41c0dca6ab493d14e92e58e21b241b96
+SHA1: 4a6fb1c24665db1bd48e8fdb7a6ad6286d696017
+SHA256: 6b598caaf1f3635d0e3c1cdb6812eb728478dc386894c2ea6529754100d44796
 
 Package: com.local.yulitepro
 Name: YuLite高級版
