@@ -62,6 +62,22 @@ MD5sum: 5e5695ca2ef8dea508bbcdb803189d1c
 SHA1: fd7cc6e48136e526dd252fcbf80cc518ce0b87ea
 SHA256: 9dab0881601642da26f2fa311beeff5e1fd9ac06c46198d1cff0d2ba21915722
 
+Package: com.local.yulite
+Name: YuLite
+Depends: mobilesubstrate, preferenceloader
+Description: Lite custom virtual camera iOS tweak with SCLAlertView & CMSampleBuffer creation.
+Maintainer: local <root@localhost>
+Author: local
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 285
+Filename: debs/com.local.yulite_1.0.4_iphoneos-arm64e.deb
+Size: 72968
+MD5sum: 5b7522b7982cb856665516a1b9ea97f3
+SHA1: 825af195152f2c1538130dae7e2b41160322ecc2
+SHA256: 7dbd76e3f46734aa690d359ebb8dac14dbc3298f5dd8c8ef645f13242f537359
+
 Package: com.local.yulitepro
 Name: YuLite高級版
 Depends: mobilesubstrate, preferenceloader
