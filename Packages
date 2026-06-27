@@ -22,6 +22,22 @@ Maintainer: local <root@localhost>
 Author: local
 Section: Tweaks
 Architecture: iphoneos-arm64e
+Version: 1.0.10
+Installed-Size: 508
+Filename: debs/com.local.yulite_1.0.10_iphoneos-arm64e.deb
+Size: 138306
+MD5sum: 57089727cf80e00cba0e4c6d04fec0fe
+SHA1: e2e4673f5f2b6eaebee7fd0caf9902cfb2821634
+SHA256: 37bf135fc4cac4fa3b667c99332fa3da0a14905bc5c2bcc52d236678fdf2ceff
+
+Package: com.local.yulite
+Name: YuLite
+Depends: mobilesubstrate, preferenceloader
+Description: Lite custom virtual camera iOS tweak with SCLAlertView & CMSampleBuffer creation.
+Maintainer: local <root@localhost>
+Author: local
+Section: Tweaks
+Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 408
 Filename: debs/com.local.yulite_1.0.1_iphoneos-arm64e.deb
