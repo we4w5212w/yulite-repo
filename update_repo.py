@@ -1,7 +1,8 @@
 import os
 import hashlib
 import bz2
-import subprocess
+import io
+import tarfile
 
 def get_hash(filepath, hash_type='md5'):
     h = hashlib.new(hash_type)
@@ -11,31 +12,39 @@ def get_hash(filepath, hash_type='md5'):
     return h.hexdigest()
 
 def extract_control(deb_path):
+    control_tar_data = None
     try:
-        # List files inside the ar archive
-        files = subprocess.check_output(['ar', 't', deb_path]).decode('utf-8').splitlines()
-        control_tar = [f for f in files if f.startswith('control.tar')][0]
-        
-        # Extract the control tarball using ar
-        subprocess.run(['ar', 'x', deb_path, control_tar], check=True)
-        
-        # Parse using Python's tarfile module
-        import tarfile
-        control_content = None
-        with tarfile.open(control_tar, 'r:*') as tar:
+        with open(deb_path, 'rb') as f:
+            if f.read(8) != b'!<arch>\n':
+                raise ValueError('not a deb/ar archive')
+
+            while True:
+                header = f.read(60)
+                if not header:
+                    break
+                if len(header) != 60 or header[58:60] != b'`\n':
+                    raise ValueError('invalid ar header')
+
+                name = header[:16].decode('utf-8', 'replace').strip()
+                size = int(header[48:58].decode('ascii').strip())
+                data = f.read(size)
+                if size % 2:
+                    f.read(1)
+
+                name = name.rstrip('/')
+                if name.startswith('control.tar'):
+                    control_tar_data = data
+                    break
+
+        if control_tar_data is None:
+            raise ValueError('control.tar not found')
+
+        with tarfile.open(fileobj=io.BytesIO(control_tar_data), mode='r:*') as tar:
             members = tar.getnames()
             control_member = [m for m in members if m.endswith('control') or m == 'control'][0]
-            control_content = tar.extractfile(control_member).read().decode('utf-8')
-            
-        # Clean up the extracted tarball
-        if os.path.exists(control_tar):
-            os.remove(control_tar)
-            
-        return control_content
+            return tar.extractfile(control_member).read().decode('utf-8')
     except Exception as e:
         print(f"Error extracting {deb_path}: {e}")
-        if 'control_tar' in locals() and os.path.exists(control_tar):
-            os.remove(control_tar)
         return None
 
 def main():

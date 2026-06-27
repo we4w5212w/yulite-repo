@@ -6,10 +6,10 @@ Codename: yulitepro
 Architectures: iphoneos-arm iphoneos-arm64e
 Components: main
 Description: YuLite Pro Repository
-Date: Fri, 26 Jun 2026 16:01:17 +0000
+Date: Sat, 27 Jun 2026 10:21:05 +0000
 MD5Sum:
- f0b000b013409db89e6827392d46c250 15185 Packages
- 63326e768ef6370a64cc246229fa58b5 3217 Packages.bz2
+ 5dee46d2401ea7df125cca3266a5cdbf 15725 Packages
+ 9ed64c577dcd5eab252a34a985af8d5d 3305 Packages.bz2
 SHA256:
- c3a44dd8e42c3a98b9ba78ead8407bc0a8ddfef6282ec1cc15cbe4520cee91b2 15185 Packages
- e0ba86738ee73658816859fcd57a2c709e264cc1882826bdac9af0b2cd10912b 3217 Packages.bz2
+ 773937cbf8a16e74a722e1ff2cab13685045fa8e12c7520cd1dfe32f8cb69809 15725 Packages
+ a83de9d04b10f71af7ded58035c47474dd9ce74b12d93fffa563f9b887ff41e4 3305 Packages.bz2
