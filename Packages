@@ -6,13 +6,13 @@ Maintainer: local <root@localhost>
 Author: local
 Section: Tweaks
 Architecture: iphoneos-arm64e
-Version: 1.0.16
+Version: 1.0.17
 Installed-Size: 296
-Filename: debs/com.local.yulite_1.0.16_iphoneos-arm64e.deb
-Size: 80462
-MD5sum: 30ffb8422742a49cc5499bb33ba0884d
-SHA1: 21811e606a7c3cdaf63761d7721a52c222936f6f
-SHA256: 4a858fd2a045f9a356477615b0e319d6a2ef5a188c111a167b32ca9faf3f5495
+Filename: debs/com.local.yulite_1.0.17_iphoneos-arm64e.deb
+Size: 80470
+MD5sum: 09c6094ec115d17f19863ad154105006
+SHA1: b8be78548faa6e2c720ef91471f1b879d8360d46
+SHA256: 9f3fa0265b9d0d1595bf3b9257d8290044364f0db1f4330fa278248517c6b5ca
 
 Package: com.local.yulitepro
 Name: YuLite高級版
