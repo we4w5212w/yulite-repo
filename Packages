@@ -209,10 +209,10 @@ Author: local
 Section: Tweaks
 Installed-Size: 460
 Filename: debs/com.local.yulite_2.0.0_iphoneos-arm64e.deb
-Size: 205052
-MD5sum: e46a094fba5558517fe03ebbbd73a701
-SHA1: eaa5ba0dc18f5938619b8957b07dbd4d23f1ef74
-SHA256: 28aa371fe8da589f7b145ddc4f9834dd8580e49fc2cead03ecafa2f21736143c
+Size: 169748
+MD5sum: db02440c4646179b63b73a4e33069a4b
+SHA1: bc0fc9189cce32927e0b3a2f3d84e27d2345b880
+SHA256: 389bcde4eacbc4898b65d71d0c0f769852d29ec05c724599d8a3371af3b56dcc
 
 Package: com.local.yulitepro
 Name: YuLite高級版
