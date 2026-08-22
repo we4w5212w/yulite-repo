@@ -99,12 +99,12 @@ Author: local
 Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.0.24
-Installed-Size: 292
+Installed-Size: 288
 Filename: debs/com.local.yulite_1.0.24_iphoneos-arm64e.deb
-Size: 85256
-MD5sum: b70eaf6f38f812d96e8984eef078220f
-SHA1: 9fe3fe3ce6c4de694195e2d35609fa28c3bde33b
-SHA256: 8d3647055bc2c987f78ebf3cc732a2538e99ed6e03c55b73d1618f6682d267c9
+Size: 58212
+MD5sum: c5d5f240002b88a9670e306c60fb7fed
+SHA1: 81097b3ede1a284d065d7865c7070628f65b7dfc
+SHA256: db96639d3c244154b335d7f13b63a387f045f976c651e3b27341c948ef171d1d
 
 Package: com.local.yulitepro
 Name: YuLite高級版
