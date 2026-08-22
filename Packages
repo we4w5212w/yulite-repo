@@ -196,6 +196,24 @@ MD5sum: 62951c37a42bed0c0eea5d5d2dc28132
 SHA1: f79068482851f136a79a11a93e3dfc1e24e36f96
 SHA256: c416aaf3e778c9dfc1322ffe8f10045778c5e66ff1e7b3b2cb64061854b6ee36
 
+Package: com.local.yulite
+Name: YuLite
+Depends: mobilesubstrate
+Conflicts: com.reconstructed.yu
+Replaces: com.reconstructed.yu
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Description: Lite custom virtual camera iOS tweak with app-based controls.
+Maintainer: local <root@localhost>
+Author: local
+Section: Tweaks
+Installed-Size: 460
+Filename: debs/com.local.yulite_2.0.0_iphoneos-arm64e.deb
+Size: 169876
+MD5sum: 49d661cef54f16521d66d49dc6ed96a9
+SHA1: f82665344896ef64fb190c2df363542d0ddf828d
+SHA256: 097d37c8fe043fd575f3680e58afd4211672535be267213e0446ec19070f96f6
+
 Package: com.local.yulitepro
 Name: YuLite高級版
 Depends: mobilesubstrate, preferenceloader
